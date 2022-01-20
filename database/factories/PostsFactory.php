@@ -11,7 +11,7 @@ class PostsFactory extends Factory
     {
         return [
             'title' => $this->faker->sentence,
-            'image' => 'public/images/yI8qfPTjWu3ON9i2pX2NnMgrUmrhRq40v7eDHE9N.jpg',
+            'image' => 'public/images/dKNyUhBvjFfbb5vCDKUwaonrJHz35Q1KvQgyxaI5.jpg',
             'active' => $this->faker->randomElement(['Yes', 'No']),
             'content' => $this->faker->sentence,
         ];
